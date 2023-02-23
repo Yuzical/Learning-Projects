@@ -1,2 +1,2 @@
-# Learning-Projects
-Currently learning python and other stuff while building projects and doing code alongs
+# Personal-Projects
+Currently learning how to code
