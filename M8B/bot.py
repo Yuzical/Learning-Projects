@@ -12,6 +12,8 @@ async def on_ready():
     print("Success: Bot is connected to Discord")
 
 
+
+#Create a text file named Responses.txt
 @client.command(aliases=["8ball", "eightball", "magicball"])
 async def m8(ctx, *, question):
     with open("M8B/Responses.txt", "r", encoding="utf-8") as f:
@@ -25,7 +27,7 @@ async def m8(ctx, *, question):
         await ctx.send(response)
     else:
         # Choose a random picture from a folder
-        picture_folder = "M8B/Pictures"  # Update this with your folder path
+        picture_folder = "M8B/Pictures"  # Update this with your folder path and create a folder named pictures
         picture_files = os.listdir(picture_folder)
         random_picture = random.choice(picture_files)
 
