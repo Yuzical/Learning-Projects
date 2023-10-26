@@ -37,4 +37,4 @@ async def m8(ctx, *, question):
             await ctx.send(file=discord.File(picture))
 
 
-client.run("MTE2MjYwNjkxOTgxNTUzNjcwMg.GTcgBN.U3FpxTMRX6T7vcG4YBiUsnUz7LaC6Pc8RQKIPU")
+client.run("Token")
