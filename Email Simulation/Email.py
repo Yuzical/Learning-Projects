@@ -13,7 +13,7 @@ def c_email():
     e_Name = input("Enter your Name.\n")
     e_User = input("Please enter in a Username for the Email.\n")
     e_Pass = input("Please enter in a Password for the Email.\n")
-    print("Congratulations your email has successfully been created.")
+    print("Your email has successfully been created.")
     print("Your Username is " + e_User +
           "@yuzical.com \nYour Password is " + e_Pass)
     with open(email_list, mode='a', newline='') as file:
